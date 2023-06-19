@@ -10,7 +10,7 @@ power = 8000  # W
 
 # Data
 speed_list = [6.8, 6.0, 7.2, 7.3, 8.2, 9.0]
-width_list = [0.8, 1.0, 1.4, 1.3, 1.2, 1.0]
+width_list = [0.8, 1.0, 1.5, 1.3, 1.2, 1.0]
 
 # Functions
 def forced_convection(speed_list, width_list):
