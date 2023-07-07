@@ -1,0 +1,9 @@
+﻿Material,Youngs (Gpa),Shear (Gpa),Density (kg/m3)
+Steel,200,84,7850
+Titanium,102.5,41,4510
+Carbon Fibre,59.16,17.5,1451
+Aluminium,70,24,2700
+Balsa Wood,3,0.23,129.75
+Copper,110,46,8960
+Silver,76,27.8,10490
+Foam,0.000045,0,10.5
