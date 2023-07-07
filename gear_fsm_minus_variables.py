@@ -1,6 +1,6 @@
 """Variables to initiate in Flow:
-upshift_rpm = 5000
-downshift_rpm = 6000
+#upshift_rpm = 5000
+#downshift_rpm = 6000
 """
 
 rpm = [
