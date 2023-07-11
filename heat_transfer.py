@@ -12,7 +12,7 @@ g = 9.81  # m/s
 rho = 1.225  # kg/m3
 
 # Variables
-# flow_velocity = 5  # m/s
+flow_velocity = 4  # m/s
 rpm = 10
 power = 8000  # W
 
@@ -43,6 +43,6 @@ injector_plate_area = total_heat_transfer / heat_transfer_density
 injectior_plate_dia = math.ceil(math.sqrt(injector_plate_area) * 2 / math.pi)
 port_diameter = math.ceil(injectior_plate_dia / 100)
 port_spacing = 4  # number per 100 mm
-injector_ports = math.ceil((injectior_plate_dia / port_spacing) * 6)
+injector_ports = math.ceil((((injectior_plate_dia**2 / port_spacing) / 1200)) - 10)
 
 print(total_heat_transfer)
