@@ -95,6 +95,6 @@ output = list(zip(rpm, gear))
 print(output)
 steps_gear_1 = gear.count(1)
 steps_gear_2 = gear.count(2)
-flow_velocity = steps_gear_1 - 2
+flow_velocity = 10 - (steps_gear_1 - 2)
 print(steps_gear_1)
 print(steps_gear_2)
