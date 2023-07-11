@@ -43,8 +43,6 @@ injector_plate_area = total_heat_transfer / heat_transfer_density
 injectior_plate_dia = math.ceil(math.sqrt(injector_plate_area) * 2 / math.pi)
 port_diameter = math.ceil(injectior_plate_dia / 100)
 port_spacing = 4  # number per 100 mm
-injector_ports = math.ceil(
-    ((((injectior_plate_dia**3 / port_spacing) / 110**3)) * 2) - 2
-)
+injector_ports = math.ceil((((injectior_plate_dia**2 / port_spacing) / 1200)) - 10)
 
 print(total_heat_transfer)
