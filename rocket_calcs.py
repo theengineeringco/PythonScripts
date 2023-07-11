@@ -2,6 +2,7 @@ import math
 import numpy as np
 import matplotlib.pyplot as plt
 
+# https://medium.com/analytics-vidhya/flying-a-rocket-numerically-404ed271ee23
 # Set parameters.
 Ms = 50.0  # weight of rocket shell (kg)
 g = 9.81  # acceleration due to gravity (m.s^{-2})
