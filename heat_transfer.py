@@ -12,7 +12,7 @@ g = 9.81  # m/s
 rho = 1.225  # kg/m3
 
 # Variables
-flow_velocity = 4  # m/s
+# flow_velocity = 5  # m/s
 rpm = 10
 power = 8000  # W
 
