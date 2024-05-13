@@ -10,7 +10,7 @@ def sum(a, b):
 e = sum(a, b)   # e WILL be extracted
 
 my_num = 1.23           # my_num WILL be extracted
-my_str = "test"         # my_str WILL be extracted
-my_bool = True          # my_bool WILL be extracted
+my_str = "test"         # my_str will NOT be extracted
+my_bool = True          # my_bool will NOT be extracted
 my_list = [1, 2, 3]     # my_list will NOT be extracted
 my_dict = {a: 1, b: 2}  # my_dict will NOT be extracted
